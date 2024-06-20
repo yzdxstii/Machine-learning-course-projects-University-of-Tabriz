@@ -7,7 +7,7 @@ def affine_forward(x, W, b):
     Inputs:
         - x: input matrix (N, d_1, ..., d_k)
         - W: weigh matrix (D, C)
-        - b: bias vector  (C, )
+        - b: baias vector  (C, )
     
     Outputs:
         - out: output of linear layer (N, C)
